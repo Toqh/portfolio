@@ -1,0 +1,4 @@
+1. check out portfolio templates and code
+2. select  a template and build on the example
+3. check on how to launch on git hub
+4. launch on github

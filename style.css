@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .jumbotron {
+    background-image: url("./assets/net.jpg"); /* Replace with your desired background image */
+    background-size: cover;
+    height: 100vh;
+    display: flex; /* Center content vertically */
+    align-items: center;
+    justify-content: center; 
+    color: black;
+    -webkit-backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px); 
+  }
+  .jumbotron-heading {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    margin-top: 30px;
+  }
+  .lead {
+    font-weight: 350; /* Adjust this value as needed */
+  }
+  .btn-group {
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  .custom-favicon {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    margin-right: 5px;/* Add margin for spacing */
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 175px; /* Adjust height as needed */
+    object-fit: cover; /* Optional: Crop image to fit container */
+  }
